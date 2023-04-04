@@ -6,7 +6,7 @@ class CreateMembers < ActiveRecord::Migration[7.0]
       t.string :membership
       t.string :phone
       t.string :image
-      t.string :phone
+    
 
       t.timestamps
     end
