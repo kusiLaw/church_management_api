@@ -1,0 +1,2 @@
+class OccupationCat < ApplicationRecord
+end

@@ -11,9 +11,13 @@
 # rails g model Membership_info info_type:string message:text member:references
 
 # rails g model Group name:string
-# rails g model Group_member group_number:integer role:string member:references group:references
-# rails g model Due amount:decimal date:date member:references group:references
-# rails g model Tithe amount:decimal payment:string ref:string date:date member:references group:references
+# rails g model Member_group group_number:integer role:string member:references group:references
+# rails g model Due amount:decimal reference:string date:date member:references group:references
+# rails g model Tithe amount:decimal payment_mode:string reference:string date:date member:references
+# rails g model Occupation job_title:string member:references Occupation_catetogory:references
+# rails g model Occupation_cat name:string 
+# rails g model Care mode_of_contact:string message:string date:date member:references
+
 
 
 # rails g model User username:string email:string password:string role:string member:references
