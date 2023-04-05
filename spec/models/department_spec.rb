@@ -1,5 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe Department, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+ it 'is valid with valid attributes'
+ it 'is not valid  with duplcate names'
+ it 'is not valid without name'
 end
